@@ -21,8 +21,8 @@ const Navbar = () => {
             <a href="#" className="text-foreground hover:text-primary transition-colors font-medium">
               Beranda
             </a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors font-medium">
-              Cara Kerja
+            <a href="#install" className="text-foreground hover:text-primary transition-colors font-medium">
+              Install Sekarang
             </a>
             <a href="#pricing" className="text-foreground hover:text-primary transition-colors font-medium">
               Harga
@@ -48,8 +48,8 @@ const Navbar = () => {
               <a href="#" className="text-foreground hover:text-primary transition-colors font-medium">
                 Beranda
               </a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors font-medium">
-                Cara Kerja
+              <a href="#install" className="text-foreground hover:text-primary transition-colors font-medium">
+                Install Sekarang
               </a>
               <a href="#pricing" className="text-foreground hover:text-primary transition-colors font-medium">
                 Harga

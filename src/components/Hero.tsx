@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Leaf, Recycle, Coins } from "lucide-react";
+import { ArrowRight, Leaf, Recycle, Coins, Play } from "lucide-react";
 import heroImage from "@/assets/hero-sorting.jpg";
 
 const Hero = () => {
@@ -33,18 +33,21 @@ const Hero = () => {
             Platform penjemputan sampah yang mengubah limbah anorganik Anda menjadi poin dan kontribusi nyata untuk lingkungan.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            <Button variant="hero" size="lg" className="text-lg">
-              Mulai Sekarang
-              <ArrowRight className="ml-2 w-5 h-5" />
+          <div className="flex flex-col sm:flex-row gap-4 mb-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+            <Button variant="hero" size="lg" className="text-lg" asChild>
+              <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+                Install Sekarang
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="text-lg">
-              Lihat Cara Kerja
-            </Button>
+          </div>
+          <div className="flex items-center gap-2 text-sm text-muted-foreground mb-10 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
+            <Play className="w-4 h-4 text-primary" />
+            <span>Gratis di Google Play • Jemput sampah pertama Anda hanya dalam 24 jam</span>
           </div>
           
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-6 max-w-xl animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+          <div className="grid grid-cols-3 gap-6 max-w-xl animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-1">10K+</div>
               <div className="text-sm text-muted-foreground">Pengguna Aktif</div>

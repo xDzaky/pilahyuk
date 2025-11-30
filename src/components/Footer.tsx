@@ -22,7 +22,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Tentang Kami</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="#" className="hover:text-primary transition-colors">Cara Kerja</a></li>
+              <li><a href="#install" className="hover:text-primary transition-colors">Install Sekarang</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Tim Kami</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Blog</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Karir</a></li>

@@ -129,7 +129,7 @@ const comparisonTiers = [
 const faqItems = [
   {
     question: "Kapan mulai bayar?",
-    answer: "Setelah 3 bulan pertama (gratis) selama promo launching berlaku hingga 31 Maret 2026.",
+    answer: "Pembayaran dimulai saat Anda upgrade ke paket Reguler atau Premium—tetap gratis selama memakai tier Gratis.",
   },
   {
     question: "Bisa downgrade?",
@@ -154,8 +154,7 @@ const Pricing = () => {
               Data paket terbaru berdasarkan riset warga Surabaya 2025
             </h2>
             <p className="text-lg text-muted-foreground">
-              Gunakan paket yang paling cocok hari ini, lalu upgrade kapan saja setelah periode promo 3 bulan
-              gratis berakhir.
+              Gunakan paket yang paling cocok hari ini, lalu upgrade kapan saja sesuai kebutuhan pengelolaan sampah keluarga.
             </p>
           </div>
           <Card className="p-6 bg-gradient-to-br from-primary/15 via-primary/5 to-transparent border-primary/20 shadow-glow">
@@ -164,9 +163,9 @@ const Pricing = () => {
                 <Sparkles className="w-6 h-6" />
               </div>
               <div>
-                <p className="text-sm font-semibold uppercase text-primary">Promo Launching!</p>
-                <h3 className="text-2xl font-bold mb-1">3 Bulan Pertama GRATIS untuk Semua Tier!</h3>
-                <p className="text-sm text-muted-foreground">Berlaku hingga 31 Maret 2026.</p>
+                <p className="text-sm font-semibold uppercase text-primary">Rekomendasi Warga!</p>
+                <h3 className="text-2xl font-bold mb-1">Gratis daftar, upgrade kapan pun Anda siap.</h3>
+                <p className="text-sm text-muted-foreground">Dari riset 15 warga Surabaya yang sudah mencobanya.</p>
               </div>
             </div>
           </Card>
